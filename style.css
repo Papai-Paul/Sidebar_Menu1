@@ -92,9 +92,10 @@
 
 .sidebar_menu .social_media i{
     padding: 10px;
-     color: white;
+    color: white;
     opacity: 0.5;
     font-size: 20px;
+    transition: all 0.3s linear;
 }
 
 #check {
@@ -119,7 +120,6 @@
     color: white;
     opacity: 1;
     transform: scale(1.2);
-    transition: all 0.3s linear;
 }
 
 #check:checked ~ .sidebar_menu{
